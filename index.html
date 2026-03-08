@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counting Character</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- textarea -->
+    <div class="container">
+        <h1>Real-Time Charactor Counter</h1>
+        <p id="max">200 characters max</p>
+        <textarea name="" id="textarea" cols="30" rows="10" placeholder="Please type your Message here"
+         maxlength="200"></textarea>
+        <div class="count">
+            <p><span id="chara">00/200 </span> Characters</p>
+            <p>Remaining:<span id="remain">200</span></p>
+        </div>
+        <button type="submit" id="msg" onclick="submit()">Submit Message</button>
+        <p ></p>
+    </div>
+</body>
+
+</html>
